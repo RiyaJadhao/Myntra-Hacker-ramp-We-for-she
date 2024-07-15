@@ -50,12 +50,11 @@ Check out the live demo of the project [here](https://riyajadhao.github.io/Myntr
 *Caption: Home Screen with fashion content and recommendations.*
 
 ![Profile Screen](screenshots/profile-screen.png)
-<<<<<<< HEAD
 ![Profile Screen](screenshots/profile-screen1.png)
 *Caption: User profile with posts and activities.*
 
 ![Activity Screen](screenshots/activity-screen.png)
-![Activity Screen](screenshots/activity-screen1.png)
+![Activity Screen](screenshots/activity-screen.png)
 ![Activity Screen](screenshots/activity-screen2.png)
 ![Activity Screen](screenshots/activity-screen3.png)
 *Caption: User's activity screen showing recommendations and friend posts.*
@@ -65,22 +64,6 @@ Check out the live demo of the project [here](https://riyajadhao.github.io/Myntr
  *Caption: User's Create Posts screen showing  purchases and fashion recommendations.*
 
 ![Message Screen](screenshots/message-screen.png)
-=======
-![Profile Screen](screenshots\profile-screen1.png)
-*Caption: User profile with posts and activities.*
-
-![Activity Screen](screenshots/activity-screen.png)
-![Activity Screen](screenshots\activity-screen1.png)
-![Activity Screen](screenshots\activity-screen2.png)
-![Activity Screen](screenshots\activity-screen3.png)
-*Caption: User's activity screen showing recommendations and friend posts.*
-
-![Create Post Screen](screenshots\createpost-screen.png)
-![Create Post Screen](screenshots\create-post screen2.png)
- *Caption: User's Create Posts screen showing  purchases and fashion recommendations.*
-
-![Message Screen](screenshots\message-screen.png)
->>>>>>> 77826e158bff67b0b7a4d4f86a577ca8502d6d23
 *Caption: User's Message screen showing  Chat feature to connect with friends, share and recommend products.*
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
