@@ -50,17 +50,17 @@ Check out the live demo of the project [here](https://riyajadhao.github.io/Myntr
 *Caption: Home Screen with fashion content and recommendations.*
 
 ![Profile Screen](screenshots/profile-screen.png)
- (screenshots\profile-screen1.png)
+![Profile Screen](screenshots\profile-screen1.png)
 *Caption: User profile with posts and activities.*
 
 ![Activity Screen](screenshots/activity-screen.png)
- (screenshots\activity-screen1.png)
- (screenshots\activity-screen2.png)
- (screenshots\activity-screen3.png)
+![Activity Screen](screenshots\activity-screen1.png)
+![Activity Screen](screenshots\activity-screen2.png)
+![Activity Screen](screenshots\activity-screen3.png)
 *Caption: User's activity screen showing recommendations and friend posts.*
 
 ![Create Post Screen](screenshots\createpost-screen.png)
- (screenshots\create-post screen2.png)
+![Create Post Screen](screenshots\create-post screen2.png)
  *Caption: User's Create Posts screen showing  purchases and fashion recommendations.*
 
 ![Message Screen](screenshots\message-screen.png)
