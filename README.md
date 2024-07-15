@@ -46,12 +46,25 @@ To set up the project locally, follow these steps:
 Check out the live demo of the project [here](https://riyajadhao.github.io/Myntra-Hacker-ramp-We-for-she).
 
 ## Screenshots
-![Home Screen](path/to/home-screen.png)
+![Home Screen](screenshots/home-screen.png)
 *Caption: Home Screen with fashion content and recommendations.*
 
-![Profile Screen](C:\Users\HP\OneDrive\Desktop\profile\profile-1.png)
+![Profile Screen](screenshots/profile-screen.png)
+ (screenshots\profile-screen1.png)
 *Caption: User profile with posts and activities.*
 
+![Activity Screen](screenshots/activity-screen.png)
+ (screenshots\activity-screen1.png)
+ (screenshots\activity-screen2.png)
+ (screenshots\activity-screen3.png)
+*Caption: User's activity screen showing recommendations and friend posts.*
+
+![Create Post Screen](screenshots\createpost-screen.png)
+ (screenshots\create-post screen2.png)
+ *Caption: User's Create Posts screen showing  purchases and fashion recommendations.*
+
+![Message Screen](screenshots\message-screen.png)
+*Caption: User's Message screen showing  Chat feature to connect with friends, share and recommend products.*
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
 
@@ -65,7 +78,7 @@ Contributions are welcome! Follow these steps to contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-For any questions or feedback, please reach out to [your email address].
+For any questions or feedback, please reach out to [riyajadhao35@gmail.com].
 
 ## Links
 - [Live Demo](https://riyajadhao.github.io/Myntra-Hacker-ramp-We-for-she)
