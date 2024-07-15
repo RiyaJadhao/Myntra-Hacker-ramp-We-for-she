@@ -60,7 +60,7 @@ Check out the live demo of the project [here](https://riyajadhao.github.io/Myntr
 *Caption: User's activity screen showing recommendations and friend posts.*
 
 ![Create Post Screen](screenshots/createpost-screen.png)
-![Create Post Screen](screenshots/create-post screen2.png)
+![Create Post Screen](screenshots/create-post-screen2.png)
  *Caption: User's Create Posts screen showing  purchases and fashion recommendations.*
 
 ![Message Screen](screenshots/message-screen.png)
