@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .left ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .left ul li {
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #090909;
+    line-height: 80px;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .left img {
+    width: 53px;
+    height: 36px;
+    padding: 0px 50px;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .right input {
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 60%;
+    color: #696e79;
+    padding: 8px 10px 10px;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 4px 4px 4px 4px;
+    background: #f5f5f6;
+  }
+  
+  .icons {
+    display: flex;
+    margin: 0px 42px;
+  }
+  
+  .wish,
+  .bag {
+    color: #000;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0px 13px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  .container img {
+    cursor: pointer;
+    width: 98.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+  }
+  .section {
+    display: flex;
+    margin: 3px 2px;
+    justify-content: center;
+  }
+  
+  .section img {
+    cursor: pointer;
+    width: 48vw;
+    background-size: cover;
+  }
+  
+  .section1 img {
+    cursor: pointer;
+    width: 100vw;
+    background-size: cover;
+  }
+  
+  .section2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section2 img {
+    cursor: pointer;
+    width: 285px;
+    height: 380px;
+  }
+  .section8 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section8 img {
+    cursor: pointer;
+    width: 261px;
+    height: 351px;
+  }
+
+  footer {
+    /* margin-top: 25px; */
+    height: 55px;
+    /* text-align: center; */
+    background-color: #f7f7f7;
+    padding-top: 28px;
+    font-size: 14px;
+    color: #696b79;
+    text-decoration: none;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    letter-spacing: .3px;
+  }
+  
+  footer a {
+    cursor: pointer;
+    color: #696b79;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+  
+  .row{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .online-shopping{
+    text-align: left;
+    margin-right: 50px;
+  }
+  .customer-policies{
+    text-align: left;
+    margin-right: 50px;
+  }
+  .app{
+    text-align: left;
+    margin-right: 90px;
+  }
+  .row-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  
+  }
+  .content-heading{
+    color: black;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .content-box{
+    line-height: 1.6;
+  }
+  .para-content{
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .copyright-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .horizontal-line{
+    margin-bottom: 30px;
+    opacity: 0.2;
+    height: 0.3px;
+  }
+  .office-address-content{
+    opacity: 0.9;
+    margin-bottom: 30px;
+  }
+  .other-info-heading{
+    font-weight: 600;
+    letter-spacing: normal;
+    color: black;
+    font-size: 15px;
+    opacity: 0.8;
+  
+  }
+  .other-info-para-content{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  .Google-play{
+    background-repeat: none;
+    margin-right: 10px;
+  
+  }
+  .App-Store{
+    background-repeat: none;
+  
+  }
+  .download-button{
+    display: flex;
+    margin-top: 30px;
+  }
+  .download-button img{
+    width: 130px;
+    height:40px;
+  }
+  
+  .original{
+    margin-bottom: 30px;
+    color: black;
+    opacity: 0.8;
+  
+  }
+  .customer-satisfaction{
+    margin-bottom: 30px;
+  }
+  .social-links{
+    margin-top: 12px;
+  }
+  
+  .fb-icon{
+    margin-right:6px;
+  }
+  .tw-icon{
+    margin-right:6px;
+  }
+  .yt-icon{
+    margin-right:6px;
+  }
+
+  #friends-section, #share-product-section, #profile-section, #messages-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#friend-list, #profile-friends {
+    list-style-type: none;
+    padding: 0;
+}
+
+#friend-list li, #profile-friends li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product-list .product-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.share-btn, button.add-friend-btn, button#chat-send-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.share-btn:hover, button.add-friend-btn:hover, button#chat-send-btn:hover {
+    background-color: #0056b3;
+}
+
+#profile-info {
+    display: flex;
+    align-items: center;
+}
+
+#profile-info img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#chatbox {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#chat-messages .message {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#chat-messages .message.sent {
+    background-color: #d1e7dd;
+}
+
+#chat-messages .message.received {
+    background-color: #f8d7da;
+}
+
+#chat-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

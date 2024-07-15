@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Activity Page</title>
+    <link rel="stylesheet" href="css/styleactivity.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/myntraclone/logo.png" alt="">
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="activity.html">Activity</a></li>
+                <li><a href="create-post.html">Create Post</a></li>
+                <li><a href="message.html">Messages</a></li>
+               </ul>
+        </div>
+        <div class="right">
+            <input placeholder="Search for products, brands and more" class="desktop-searchBar" value=""
+                data-reactid="904">
+            <div class="icons">
+                <div class="wish">Wishlist</div>
+                <div class="bag">Bag</div>
+            </div>
+        </div>
+    </nav>
+    
+        <section class="most-seen-products">
+            <h2>Most Seen Products</h2>
+            <div class="product-list" id="most-seen-products-list">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </section>
+        <section class="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendation-list" id="recommendation-list">
+                <!-- Recommendations will be dynamically inserted here -->
+            </div>
+        </section>
+        <section class="friend-posts">
+            <h2>Friend Posts</h2>
+            <div class="posts-list" id="posts-list">
+                <!-- Friend posts will be dynamically inserted here -->
+            </div>
+        </section>
+        <section class="user-activities">
+            <h2>Your Activities</h2>
+            <div class="activity-list" id="activity-list">
+                <!-- User activities will be dynamically inserted here -->
+            </div>
+        </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Myntra. All rights reserved.</p>
+    </footer>
+    <script src="js/activity.js"></script>
+</body>
+</html>

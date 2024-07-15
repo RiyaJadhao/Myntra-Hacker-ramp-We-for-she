@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra - Messages</title>
+    <link rel="stylesheet" href="css/stylemessage.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/myntraclone/logo.png" alt="Myntra Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="activity.html">Activity</a></li>
+                <li><a href="create-post.html">Create Post</a></li>
+                <li><a href="message.html" class="active">Messages</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input placeholder="Search messages" class="desktop-searchBar">
+            <div class="icons">
+                <div class="notification">3</div> <!-- Example notification count -->
+                   <div class="wish">Wishlist</div>
+                      <div class="bag">Bag</div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="message-section">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <img src="images/friend1.jpg" alt="Friend Image">
+                    <p class="friend-name">Jane Smith</p>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Messages will be dynamically added here -->
+                </div>
+                <div class="chat-input">
+                    <textarea id="messageInput" placeholder="Type your message..."></textarea>
+                    <button id="sendMessageBtn">Send</button>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="friend-list">
+                    <h3>Friends</h3>
+                    <ul id="friendList">
+                        <!-- Friend list items will be added here dynamically -->
+                        <li class="friend">
+                            <img src="images/friend1.jpg" alt="Friend Image">
+                            <p class="friend-name">Jane Smith</p>
+                        </li>
+                        <li class="friend">
+                            <img src="images/friend2.jpg" alt="Friend Image">
+                            <p class="friend-name">Alex Johnson</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="shared-products">
+                    <h3>Shared Products</h3>
+                    <div id="sharedProducts">
+                        <!-- Shared products will be added here dynamically -->
+                        <div class="product">
+                            <img src="images/product1.jpg" alt="Product Image">
+                            <p>Product Name 1</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/product2.jpg" alt="Product Image">
+                            <p>Product Name 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recommendations">
+                    <h3>Recommendations</h3>
+                    <div id="recommendations">
+                        <!-- Recommendations will be added here dynamically -->
+                        <div class="recommendation">
+                            <img src="images/recommended-product.jpg" alt="Recommended Product">
+                            <p>Recommended Product Name</p>
+                        </div>
+                        <div class="recommendation">
+                            <img src="images/recommended-product.jpg" alt="Recommended Product">
+                            <p>Recommended Product Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Myntra. All rights reserved.</p>
+    </footer>
+
+    <script src="js/message.js"></script>
+</body>
+</html>

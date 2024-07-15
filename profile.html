@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra - Profile</title>
+    <link rel="stylesheet" href="css/styleprofile.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/myntraclone/logo.png" alt="Myntra Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+                <li><a href="activity.html">Activity</a></li>
+                <li><a href="create-post.html">Create Post</a></li>
+                <li><a href="message.html">Messages</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input placeholder="Search for products, brands and more" class="desktop-searchBar">
+            <div class="icons">
+                <div class="wish">Wishlist</div>
+                <div class="bag">Bag</div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="profile-section">
+            <div class="cover-photo">
+                <img id="coverPhoto" src="images/default-cover.jpg" alt="Cover Photo">
+                <input type="file" id="coverPhotoInput" accept="image/*" onchange="uploadCoverPhoto(event)">
+            </div>
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <img id="avatar" src="images/default-avatar.jpg" alt="Profile Picture">
+                    <input type="file" id="avatarInput" accept="image/*" onchange="uploadAvatar(event)">
+                </div>
+                <div class="profile-info">
+                    <h2 class="profile-name">John Doe</h2>
+                    <textarea id="bio" placeholder="Fashion enthusiast and trendsetter."></textarea>
+                    <button id="save-profile-btn" onclick="saveProfile()">Save Profile</button>
+                </div>
+            </div>
+            <div class="profile-posts">
+                <h3>Posts</h3>
+                <div id="profile-posts">
+                    <!-- Posts will be added here dynamically -->
+                    <div class="post">
+                        <img src="images/post1.jpg" alt="Post Image">
+                        <p class="post-description">Styling my favorite denim jeans with a casual look. #Fashion</p>
+                    </div>
+                    <div class="post">
+                        <img src="images/post2.jpg" alt="Post Image">
+                        <p class="post-description">New sunglasses collection for summer! #SummerStyle</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-activities">
+                <h3>Recent Activities</h3>
+                <ul id="activityList">
+                    <!-- User activities will be listed here dynamically -->
+                    <li>Liked a post</li>
+                    <li>Purchased a new item</li>
+                    <li>Followed a new influencer</li>
+                </ul>
+            </div>
+            <div class="profile-achievements">
+                <h3>Achievements</h3>
+                <ul id="achievementList">
+                    <!-- User achievements will be listed here dynamically -->
+                    <li>Joined 1 month ago</li>
+                    <li>First purchase</li>
+                    <li>100 likes on posts</li>
+                </ul>
+            </div>
+            <div class="profile-friends">
+                <h3>Friends</h3>
+                <ul id="profile-friends">
+                    <!-- Friend list items will be added here dynamically -->
+                    <li class="friend">
+                        <img src="images/friend1.jpg" alt="Friend Image">
+                        <p class="friend-name">Jane Smith</p>
+                    </li>
+                    <li class="friend">
+                        <img src="images/friend2.jpg" alt="Friend Image">
+                        <p class="friend-name">Alex Johnson</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Myntra. All rights reserved.</p>
+    </footer>
+
+    <script src="js/profile.js"></script>
+</body>
+</html>

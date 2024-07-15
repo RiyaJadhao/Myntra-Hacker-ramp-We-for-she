@@ -1,0 +1,256 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+nav {
+  position: sticky;
+  background-color: #ffffff;
+  top: 0px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.left ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.left ul li {
+  padding: 0px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #090909;
+  line-height: 80px;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+.left img {
+  width: 53px;
+  height: 36px;
+  padding: 0px 50px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.right input {
+  font-size: 14px;
+  height: 20px;
+  line-height: 24px;
+  width: 60%;
+  color: #696e79;
+  padding: 8px 10px 10px;
+  outline: 0;
+  border: 1px solid #f5f5f6;
+  border-radius: 4px 4px 4px 4px;
+  background: #f5f5f6;
+}
+
+.icons {
+  display: flex;
+  margin: 0px 42px;
+}
+
+.wish,
+.bag {
+  color: #000;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 0px 13px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+.notification {
+  background-color: #ff6f61;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+#message-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-header .friend-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+  padding-right: 20px; /* Adjust for scrollbar width */
+}
+
+.chat-messages .message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  clear: both;
+}
+
+.chat-messages .message.received {
+  float: left;
+  background-color: #e2f5fe;
+}
+
+.chat-messages .message.sent {
+  float: right;
+  background-color: #dcf8c6;
+}
+
+.avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.message-content {
+  overflow-wrap: break-word;
+}
+
+.chat-input {
+  margin-top: 20px;
+}
+
+.chat-input textarea {
+  width: calc(100% - 80px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.chat-input button {
+  width: 80px;
+  padding: 8px;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.friend-list h3,
+.shared-products h3,
+.recommendations h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.friend-list ul,
+.shared-products,
+.recommendations {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.friend-list .friend,
+.shared-products .product,
+.recommendations .recommendation {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.friend-list .friend img,
+.shared-products .product img,
+.recommendations .recommendation img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-list .friend p,
+.shared-products .product p,
+.recommendations .recommendation p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.friend-list .friend p.friend-name,
+.shared-products .product p,
+.recommendations .recommendation p {
+  font-weight: bold;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
