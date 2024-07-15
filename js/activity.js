@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const userActivities = [
-        { id: 1, activity: 'Viewed Product 1' },
+        { id: 1, activity: 'Viewed Product 1'},
         { id: 2, activity: 'Liked Product 2' },
         { id: 3, activity: 'Shared Product 3' },
         { id: 4, activity: 'Commented on Product 4' },
